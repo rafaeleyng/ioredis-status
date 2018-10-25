@@ -1,7 +1,8 @@
 {
   "name": "redis-healthcheck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks the health of a Redis server using an ioredis or node_redis client",
+  "keywords": ["redis", "ioredis", "node_redis", "healthcheck", "status"],
   "main": "index.js",
   "repository": "https://github.com/rafaeleyng/redis-healthcheck.git",
   "author": "Rafael Eyng <rafaeleyng@gmail.com>",
