@@ -2,7 +2,7 @@
 
 Checks the health of a Redis server.
 
-This project is a shameless copy+paste form [redis-status](https://github.com/mixmaxhq/redis-status), but adapted to work with `ioredis` clients as well.
+This project is a shameless copy+paste from [redis-status](https://github.com/mixmaxhq/redis-status), but adapted to work with `ioredis` clients as well.
 
 Instead of passing the connection config (like in `redis-status`), in `redis-healthcheck` you pass a previously created client, an instance of [ioredis](https://github.com/luin/ioredis) or [node_redis](https://github.com/NodeRedis/node_redis).
 
